@@ -22,19 +22,32 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=zero-hello&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
+<img height="180" src="./profile/stats.svg" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zero-hello&layout=compact&theme=transparent&hide_border=true" />
+<img height="180" src="./profile/top-langs.svg" />
 
 </div>
 
 ---
 
-## 🐍 Contributions
+## 🐍 Contribution Snake
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zero-hello/zero-hello/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="GitHub Contribution Snake"
+    src="./output/github-contribution-grid-snake.svg"
+  />
+</picture>
 
 </div>
 
